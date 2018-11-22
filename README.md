@@ -14,9 +14,8 @@ Summary: Enables the creation of object pools, which make it less computationall
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-pool-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-pool-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-pool-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-pool-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-pool-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-pool-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-pool-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-pool-feedstock)
 
 Current release info
 ====================
