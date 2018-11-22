@@ -14,9 +14,9 @@ source:
   sha256: 1cc0c5ad43ae35ea0078fd06473de01bfb538c71d5092ebea00f65eab9f313a9
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,8 +50,7 @@ about:
   summary: Enables the creation of object pools, which make it less computationally expensive
     to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
