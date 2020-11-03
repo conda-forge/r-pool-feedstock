@@ -3,7 +3,7 @@ About r-pool
 
 Home: https://github.com/rstudio/pool
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pool-feedstock/blob/master/LICENSE.txt)
 
