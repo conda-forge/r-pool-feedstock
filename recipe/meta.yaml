@@ -45,10 +45,11 @@ test:
 
 about:
   home: https://github.com/rstudio/pool
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
