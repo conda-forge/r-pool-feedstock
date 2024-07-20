@@ -1,6 +1,5 @@
 {% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-pool
@@ -13,8 +12,7 @@ source:
   sha256: c461f96928c3e524a52018160d2406f3a1f5ef5abbae54ae89fe7ecd4c1a1cec
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
